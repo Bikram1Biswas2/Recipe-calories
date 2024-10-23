@@ -3,7 +3,7 @@ import { useState } from "react";
 import SingleRecipe from "../SingleRecipe/SingleRecipe";
 
 
-const RecipeCards = () => {
+const RecipeCards = ({handleWantCook}) => {
 
     const [recipes,setRecipes] = useState([])
 
@@ -17,7 +17,9 @@ const RecipeCards = () => {
     return (
         <div className="w-2/3 grid md:grid-cols-2 gap-3">
             {
-                recipes.map(recipe => <SingleRecipe recipe={recipe} key={recipes.recipe_id}></SingleRecipe>)
+                recipes.map(recipe => <SingleRecipe recipe={recipe} key={recipes.recipe_id}
+                    handleWantCook={handleWantCook}
+                ></SingleRecipe>)
             }
         </div>
     );

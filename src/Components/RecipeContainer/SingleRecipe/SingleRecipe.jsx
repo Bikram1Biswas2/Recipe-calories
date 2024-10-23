@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 
-const SingleRecipe = ({recipe}) => {
+const SingleRecipe = ({recipe,handleWantCook}) => {
     return (
        <div className="">
          <div className=" bg-base-100 border-2 p-3 rounded-2xl">
@@ -19,7 +20,7 @@ const SingleRecipe = ({recipe}) => {
             }
           </ul>
           <div className="card-actions mt-3">
-            <button className="btn bg-green-400 rounded-3xl px-8 ">Want to Cook</button>
+            <button onClick={()=>handleWantCook(recipe)} className="btn bg-green-400 rounded-3xl px-8  font-bold">Want to Cook</button>
           </div>
         </div>
       </div>
