@@ -1,0 +1,95 @@
+{
+    "recipes": [
+      {
+        "recipe_id": 1,
+        "recipe_image": "https://i.ibb.co/JQsTnMd/victoria-shes-UC0-HZd-Uit-WY-unsplash.jpg",
+        "recipe_name": "Grilled Chicken",
+        "short_description": "A healthy and flavorful grilled chicken recipe with herbs.",
+        "ingredients": [
+          "550 g chicken breast",
+          "2 tbsp olive oil",
+          "1 tbsp garlic powder",
+          "1 tbsp lemon juice",
+          "1 tsp dried oregano"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_image": "https://i.ibb.co/ZzP3bXP/martin-baron-PBgb-Ib-Osprk-unsplash.jpg",
+        "recipe_name": "Vegan Buddha Bowl",
+        "short_description": "A vibrant bowl of plant-based goodness with quinoa and veggies.",
+        "ingredients": [
+          "100 g quinoa",
+          "200 g chickpeas",
+          "150 g spinach",
+          "50 g avocado",
+          "50 g roasted sweet potato"
+        ],
+        "preparing_time": "25 min",
+        "calories": "400 calories"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_image": "https://i.ibb.co/pyP1Lmw/amin-ramezani-XY-q-UOa2-Cd-Q-unsplash.jpg",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with a rich meat sauce.",
+        "ingredients": [
+          "400 g spaghetti",
+          "250 g ground beef",
+          "100 ml tomato sauce",
+          "50 g Parmesan cheese",
+          "2 cloves garlic"
+        ],
+        "preparing_time": "45 min",
+        "calories": "550 calories"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_image": "https://i.ibb.co/LvjvqfP/nauris-pukis-02-BN2-Q25a-Uk-unsplash.jpg",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Deliciously fluffy pancakes, perfect for breakfast or brunch.",
+        "ingredients": [
+          "200 g all-purpose flour",
+          "300 ml milk",
+          "2 large eggs",
+          "2 tbsp sugar",
+          "1 tsp baking powder"
+        ],
+        "preparing_time": "20 min",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_image": "https://i.ibb.co/fp5wTtp/julia-kicova-COWzff2evms-unsplash.jpg",
+        "recipe_name": "Tomato Soup",
+        "short_description": "A comforting and creamy tomato soup with fresh basil.",
+        "ingredients": [
+          "600 g tomatoes",
+          "200 ml vegetable broth",
+          "50 g basil leaves",
+          "1 clove garlic",
+          "1 tbsp olive oil"
+        ],
+        "preparing_time": "35 min",
+        "calories": "180 calories"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_image": "https://i.ibb.co/r6t5J1v/douglas-lopez-T4r-Rt-Xek-Rg-Y-unsplash.jpg",
+        "recipe_name": "Chocolate Cake",
+        "short_description": "A rich and moist chocolate cake with ganache.",
+        "ingredients": [
+          "200 g all-purpose flour",
+          "100 g cocoa powder",
+          "150 g sugar",
+          "200 ml milk",
+          "100 g dark chocolate"
+        ],
+        "preparing_time": "60 min",
+        "calories": "600 calories"
+      }
+    ]
+  }
+  

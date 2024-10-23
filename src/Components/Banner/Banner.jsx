@@ -3,11 +3,8 @@
 const Banner = () => {
     return (
         <div>
-            <div
-  className="hero h-[400px]"
-  style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-  }}>
+            <div className="hero h-[450px] bg-cover bg-center bg-no-repeat bg-[url('https://i.ibb.co/2KDMdmg/janko-ferlic-2oi-JD1q-JNEQ-unsplash.jpg')]"
+  >
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="">
