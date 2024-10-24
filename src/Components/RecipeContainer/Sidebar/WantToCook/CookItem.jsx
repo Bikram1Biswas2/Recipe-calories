@@ -1,6 +1,6 @@
 
 
-const CookItem = ({cookItem,idx}) => {
+const CookItem = ({cookItem,idx,handlePrepareCook}) => {
     return (
         <div>
             <div className="overflow-x-auto">
@@ -14,6 +14,7 @@ const CookItem = ({cookItem,idx}) => {
         <td>{cookItem.recipe_name}</td>
         <td>{cookItem.preparing_time}</td>
         <td>{cookItem.calories}</td>
+       <td> <button onClick={()=>handlePrepareCook(cookItem.recipe_id)} className="btn bg-green-400 rounded-3xl  font-semibold">Preparing</button></td>
       </tr>
     
     </tbody>

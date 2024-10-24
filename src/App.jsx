@@ -7,6 +7,7 @@ import RecipeHeading from "./Components/RecipeHeading/RecipeHeading";
 
 function App() {
   const [wantCook, setWantCook] = useState([]);
+  const [currentCook,setCurrentCook] = useState([])
 
   const handleWantCook = (recipe) => {
     const alreadyCook = wantCook.find((cook) => cook.recipe_id === recipe.recipe_id);
@@ -18,6 +19,17 @@ function App() {
     }
   };
 
+  const handlePrepareCook = id=> {
+      // find which recipes to remove
+      const deleteRecipe = wantCook.find(recipe => recipe.recipe_id === id)
+
+      // remove from want to cook Table
+      const updatedWantCook = wantCook.filter(recipe =>recipe.recipe_id !==id)
+      setWantCook(updatedWantCook)
+      setCurrentCook([...currentCook,deleteRecipe])
+  }
+
+
   return (
     <div className="w-11/12 mx-auto space-y-12 mb-12">
       <Header></Header>
@@ -25,7 +37,9 @@ function App() {
       <RecipeHeading></RecipeHeading>
       <RecipeContainer
         wantCook={wantCook}
+        currentCook={currentCook}
         handleWantCook={handleWantCook}
+        handlePrepareCook={handlePrepareCook}
       ></RecipeContainer>
     </div>
   );

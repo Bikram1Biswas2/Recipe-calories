@@ -1,6 +1,6 @@
 import CookItem from "./CookItem";
 
-const WantToCook = ({wantCook}) => {
+const WantToCook = ({wantCook,handlePrepareCook}) => {
     return (
         <div>
             <h2 className="text-center font-bold">Want to Cook:{wantCook.length}</h2>
@@ -15,7 +15,7 @@ const WantToCook = ({wantCook}) => {
     </thead>
     </table>
             {
-                wantCook.map((cookItem,idx) => <CookItem cookItem={cookItem} idx={idx} key={idx}></CookItem>)
+                wantCook.map((cookItem,idx) => <CookItem cookItem={cookItem} idx={idx} key={idx} handlePrepareCook={handlePrepareCook}></CookItem>)
             }
         </div>
     );
